@@ -1,0 +1,25 @@
+body{
+    background-color: #b2bec3;
+}
+
+.gameInterface{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    border: 3px solid #1e3799;
+    background-color: #81ecec;
+    position: relative;
+}
+.gameInterface .square{
+    width: 30px;
+    height: 30px;
+    background-color: #6c5ce7;
+    position: relative;
+}
+.gameInterface .finalPoint{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #0984e3;
+    position: absolute;
+}

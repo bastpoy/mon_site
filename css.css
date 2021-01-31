@@ -53,7 +53,8 @@
 .barre_de_gauche{
     display: inline-block;
     text-align: center;
-    position: sticky;
+    position: fixed;
+    top: 100px;
     border-right: solid;
     border-color: RGBa(178,190,195,0.5);
     width: 200px;
@@ -77,23 +78,32 @@
 .barre_de_gauche .gauche:hover{
     padding-left: 30px ;
     margin-right: -30px;
+    right: 10px;
     background-color:RGBa(255,255,255,0.2);
     transition-duration: 1s;
 }
 .middle{
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    line-height: 2;
-    margin: 40px 0px 40px 0px;
+    min-height: 100vh;
+    line-height: 2.5;
+    padding: 40px 0px 40px 0px;
 }
 
+.texte_presentation{
+    background-color:#82ccdd;
+}
 .texte_parcours{
     background-color: #2d3436;
-    color: #dfe6e9;
-    padding: 10px 0px 10px 0px;
+    color:  #dfe6e9;
+    padding: 10px 0px 10px #a29bfe;
 }
-
-.texte-projet{
+.texte_interet{
+    background-color:#82ccdd;
+}
+.texte_projet{
     background-color: #2d3436;
     color: #dfe6e9;
     padding: 10px 0px 10px 0px;

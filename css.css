@@ -12,12 +12,22 @@
     height: 100%;
     
 }
+.grand_titre{
+    text-align: center;
+    position: relative;
+    color:#778ca3;
+    top: 100px;
+}
 
 .titre{
     background-color: transparent;
     text-align: center;
     font-size: 40px;
-    color: black;
+}
+.sous-titre{
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
 }
 
 
@@ -54,7 +64,7 @@
     display: flex;
     text-align: center;
     position: fixed;
-    flex-direction: column;
+    flex-direction: column; 
     top: 100px;
     border-right: solid;
     border-color: RGBa(178,190,195,0.5);
